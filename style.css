@@ -5,9 +5,9 @@
     font-weight: 400;
     font-size: 8.4rem;
 }
-.healthy{
-  margin-top: -70px;
-}
+      .healthy{
+        margin-top: -70px;
+      }
 
 * {
   margin: 0;
@@ -120,7 +120,7 @@ header{
     }
     .cart{
       display: flex;
-      flex-direction: row;
+      /* flex-direction: row; */
       gap: 50px;
       
          .red-ball{
@@ -519,6 +519,161 @@ p{
   padding-bottom: 30px;
 }
 }
+
+/* footer section style end  */
+
+/* Mobile responsive style  */
+@media screen and (max-width:576px) {
+  .container{
+    width: 90%;
+    padding: 0 5px;
+    margin: 0 auto;
+    
+  }
+  /* nav bar style  */
+.nav-bar{
+  display: none !important;
+}
+.menu{
+  display: block !important;
+}
+
+/* nav bar style end  */
+
+/* header style starts  */
+
+.headerSection{
+flex-direction: column;
+text-align: center;
+}
+.header-title{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.miama{
+  font-size: 6rem;
+}
+.healthy{
+  margin-top: -0px;
+}
+.button{
+  display: flex;
+  gap: 20px;
+}
+.btn{
+  font-size: 0.8rem;
+}
+/* main style starts */
+/* habits section style  */
+
+.habits_details{
+  h1{
+    font-size: 1.5rem;
+  }
+}
+main{
+  .position{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+  }
+  /* habits style end  */
+  .Run{
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px;
+  margin-bottom: 80px;
+  .run-details{
+    margin-top: 10px;
+  }
+  h1{
+    font-size: 1.8rem;
+  }
+}
+}
+/* main style end  */
+
+/* BMI calculator styles start */
+.calculator{
+  h1{
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 30px;
+  }
+  p{
+    width: 300px;
+    margin-top: 6px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+  }
+}
+.BMI_CalculatorSection{
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 30px;
+  caption{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .bmi_inputBox{
+
+    .input-box{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    input{
+         margin-bottom: 4px;
+      border-radius: 3px;
+      margin-right: 3px;
+      padding: 5px;
+      width: 47%;
+    }
+  }
+ select{
+      padding: 5px;
+      margin-bottom: 4px;
+      border-radius: 3px;
+      margin-right: 3px;
+      font-size: 0.7rem;
+ }
+ .btn-4{
+  width: 200px;
+ }
+}
+/* BMI calculator style end  */
+
+/* Team style starts */
+.our_team{
+  grid-template-columns: repeat(1,1fr);
+}
+
+/* footer style here  */
+
+footer{
+  .footer-item{
+  flex-direction: column;
+  margin-left: 30px;
+  gap: 40px;
+}
+   hr{
+    margin-top: 80px;
+  margin-bottom: 20px;
+  width: 80%;
+  padding: 0 5px;
+  margin: 0 auto;
+ }
+ .footer_list-item{
+  margin-bottom: 20px;
+  h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+ }
+}
+}
+/* Mobile responsive stle end  */
+
+
+
  
 
 
